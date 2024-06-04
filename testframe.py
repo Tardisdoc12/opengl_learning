@@ -398,7 +398,7 @@ class GraphicsEngine:
         ################################################
 
         #DRAWING IN THE DEFAULT FRAMEBUFFER#############
-        self.render_from_frame_buffer(_to = 1)
+        self.render_from_frame_buffer(_from = 1)
         ################################################
         glFlush()
 
